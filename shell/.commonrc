@@ -1,0 +1,10 @@
+# Common config for all shells across all machines
+
+## Aliases
+# bat
+alias bat="batcat"
+# install
+alias install="sudo apt update -y && sudo apt install"
+# xclip copy helper
+alias xcopy="xclip -sel clip"
+

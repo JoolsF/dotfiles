@@ -1,0 +1,10 @@
+## Paths 
+# Coursier 
+export PATH="$PATH:/home/julianfenner/.local/share/coursier/bin"
+# Dropbox
+export PATH="$PATH:/home/julianfenner/.dropbox-dist"
+# Jetbrains
+export PATH="$PATH:/home/julianfenner/.local/share/JetBrains/Toolbox/bin"
+export PATH="$PATH:/home/julianfenner/.local/share/JetBrains/Toolbox/apps"
+export PATH="$PATH:/home/julianfenner/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/213.5744.223/bin"
+

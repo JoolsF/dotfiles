@@ -1,0 +1,16 @@
+# Common config for bash across all machines
+
+source ~/.commonrc
+
+# tab completion
+bind 'set show-all-if-ambiguous on'
+bind 'TAB:menu-complete'
+
+
+## Aliases
+# bat
+alias bat="batcat"
+# install
+alias install="sudo apt update -y && sudo apt install"
+# xclip copy helper
+alias xcopy="xclip -sel clip"
