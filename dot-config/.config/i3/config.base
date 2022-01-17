@@ -185,9 +185,12 @@ bar {
 # My updates #
 ##############
 
-# Enable touchpad tap
+# enable touchpad tap
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1 
-# Dual monitor setup
+# dual monitor setup
 exec --no-startup-id xrandr --output HDMI-2 --auto --above eDP-1
-# Background - needs to be after dual monitor / xrandr command for background
+# background - needs to be after dual monitor / xrandr command for background
 exec --no-startup-id feh --bg-scale ~/Pictures/backgrounds/japan-2.jpg
+
+# key bindings
+bindsym $mod+shift+x exec i3lock

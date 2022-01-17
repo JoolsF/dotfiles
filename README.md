@@ -26,5 +26,5 @@ source ~/.thinkpad460rc
 i3 contains config.base and machine-specific configs files e.g. config.tp460.  In ~/.config/i3 a config file needs to be composed from the base file and the machine-specific file e.g
 
 ```
-cat config.base > config && config.tp460 >> config
+./reload-dot-config.sh {machine specific config}
 ```
