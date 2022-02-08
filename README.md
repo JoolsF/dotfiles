@@ -23,8 +23,25 @@ source ~/.thinkpad460rc
 'stow dot-files' syncs to ~/.config/..
 
 ### i3
+
 i3 contains config.base and machine-specific configs files e.g. config.tp460.  In ~/.config/i3 a config file needs to be composed from the base file and the machine-specific file e.g
 
 ```
 ./reload-dot-config.sh {machine specific config}
 ```
+
+#### Programs required
+* blueman (bluetooth)
+* pavucontrol (audio)
+* rofi (dmenu alternative)
+* i3blocks (i3 bar)
+* i3lock (lock screen)
+
+#### Dell XPS 15 dual setup
+To get rid of massive cursor issues the following is required
+~/.Xresources
+ Xcursor.size: 16
+
+~/.xinitrc
+ xrdb ~/.Xresources
+ exec i3

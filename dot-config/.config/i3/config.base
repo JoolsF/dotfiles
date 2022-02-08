@@ -106,10 +106,10 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: IDE"
-set $ws2 "2: Web"
-set $ws3 "3: Dev"
-set $ws4 "4"
+set $ws1 "1: Term"
+set $ws2 "2: IDE"
+set $ws3 "3: Web"
+set $ws4 "4: Dev"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -142,8 +142,8 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Assign programs to specific workspaces
-assign [class="jetbrains-idea-ce"] $ws1
-assign [class="Firefox"] $ws2
+assign [class="jetbrains-idea-ce"] $ws2
+assign [class="Firefox"] $ws3
 # Spotify is broken so we have to move it using this
 # for_window [class="spotify"] move window to $workspace10
 
@@ -189,9 +189,9 @@ bar {
 
 }
 
-##################
-# My base config #
-##################
+#########################
+# My base config extras #
+#########################
 
 # background - needs to be after dual monitor / xrandr command for background
 exec --no-startup-id feh --bg-scale ~/Pictures/backgrounds/japan-2.jpg
