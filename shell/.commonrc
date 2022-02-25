@@ -5,6 +5,7 @@
 alias bat="batcat"
 # install
 alias install="sudo apt update -y && sudo apt install"
+alias uninstall="sudo apt --purge remove"
 # xclip copy helper
 alias xcopy="xclip -sel clip"
 
