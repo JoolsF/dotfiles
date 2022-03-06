@@ -1,6 +1,20 @@
 # dotfiles
 Linux config files
 
+# Programs required
+Programs required for this setup not part of distro installation
+
+## bash
+
+
+## i3
+* blueman (bluetooth)
+* pavucontrol (audio)
+* rofi (dmenu alternative)
+* i3blocks (i3 bar)
+* i3lock (lock screen)
+
+
 ## Usage
 * clone repo to home directory root
 * Install stow
