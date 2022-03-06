@@ -15,7 +15,7 @@ Programs required for this setup not part of distro installation
 * i3lock (lock screen)
 
 
-## Usage
+# Usage
 * clone repo to home directory root
 * Install stow
 * Inside cloned directory run stow {dir-name} to create symlinks in home directory
@@ -40,7 +40,7 @@ source ~/.privaterc
 ## dot-config
 'stow dot-files' syncs to ~/.config/..
 
-### i3
+## i3
 
 i3 contains config.base and machine-specific configs files e.g. config.tp460.  In ~/.config/i3 a config file needs to be composed from the base file and the machine-specific file e.g
 
@@ -48,7 +48,7 @@ i3 contains config.base and machine-specific configs files e.g. config.tp460.  I
 ./reload-dot-config.sh {machine specific config}
 ```
 
-#### Dell XPS 15 dual setup
+### Dell XPS 15 dual setup
 To get rid of massive cursor issues the following is required
 ~/.Xresources
  Xcursor.size: 16
