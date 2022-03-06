@@ -48,13 +48,6 @@ i3 contains config.base and machine-specific configs files e.g. config.tp460.  I
 ./reload-dot-config.sh {machine specific config}
 ```
 
-#### Programs required
-* blueman (bluetooth)
-* pavucontrol (audio)
-* rofi (dmenu alternative)
-* i3blocks (i3 bar)
-* i3lock (lock screen)
-
 #### Dell XPS 15 dual setup
 To get rid of massive cursor issues the following is required
 ~/.Xresources
