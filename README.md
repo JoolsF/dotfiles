@@ -4,6 +4,8 @@ Linux config files
 # Programs required
 Programs required for this setup not part of distro installation
 
+* neofetch (system spec)
+
 ## bash
 
 
