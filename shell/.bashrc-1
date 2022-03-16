@@ -119,7 +119,7 @@ fi
 # MY CONFIG
 
 # Set prompt to show current directory only with no machine name
-export PS1="\e[0;32m[\W] \$ \e[0m"
+export PS1="\e[1;37m[\W] \e[0m\$ "
 
 
 # Tab completion
