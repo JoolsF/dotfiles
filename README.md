@@ -29,14 +29,13 @@ The following files are in this directory
 * {machine}rc - Config specific to a machine
 
 The idea is that .bashrc is not in this directory.  Instead the following 4 lines need to be added to ~/.bashrc.
-Note .privaterc which is not under source control and contains things like confidential environment variables.
-
+Note .privaterc is not under source control and contains things like confidential environment variables. .temprc is also not under source control and for temporary non-secret configurations.
 ```
 source ~/.bashrc-1
 source ~/.commonrc
 source ~/.thinkpad460rc
 source ~/.privaterc
-
+source ~/.temprc
 ```
 
 ## dot-config

@@ -1,11 +1,23 @@
 # Common config for all shells across all machines
 
-## Aliases
-# bat
+# ALIASES 
+# Programs
 alias bat="batcat"
-# install
+alias xcopy="xclip -sel clip"
+alias xpaste="xclip -out -selection clipboard"
+
+# Shortcuts
 alias install="sudo apt update -y && sudo apt install"
 alias uninstall="sudo apt --purge remove"
-# xclip copy helper
-alias xcopy="xclip -sel clip"
+
+# Git
+alias gcom="git checkout master"
+alias gcomp="git checkout master && git pull"
+alias gco.="git checkout ."
+alias gst="git status"
+
+
+
+# PATH
+export PATH="$HOME/bin:$PATH"
 

@@ -1,0 +1,24 @@
+# ALIASES
+# Display
+alias brightlow="xrandr --output eDP-1 --brightness 0.4"
+alias brightmed="xrandr --output eDP-1 --brightness 0.6"
+alias brighthigh="xrandr --output eDP-1 --brightness 0.8"
+# Deactivate laptop output (for dual monitor mode)
+alias laptopoff="xrandr --output eDP-1 --off"
+
+#Programs
+alias nosqlbooster="/opt/nosqlbooster4mongo-6.2.2.AppImage"
+alias robo="QT_FONT_DPI=128 /snap/bin/robo3t-snap"
+
+
+
+# NVM
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+
+
+# JAVA
+# Java (use coursier JVM)
+JAVA_HOME=/home/julianfenner/.cache/coursier/jvm/adopt@1.8.0-272
+

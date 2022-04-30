@@ -1,4 +1,10 @@
-" jk exit insert mode
-inoremap jk <ESC>
-" line numbers
-set number
+set nocompatible
+syntax on        " highlight syntax
+set number       " show line numbers
+set noswapfile   " disable the swapfile
+set hlsearch     " highlight all results
+set ignorecase   " ignore case in search
+set incsearch    " show search results as you type
+
+imap jk <ESC>    " Esc key mapped to jk  
+
