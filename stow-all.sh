@@ -1,3 +1,3 @@
 #!/bin/bash
 
-stow vim scripts shell vim dot-config
+stow vim scripts shell vim dot-config git
