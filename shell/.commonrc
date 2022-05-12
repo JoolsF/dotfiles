@@ -15,11 +15,12 @@ alias google="~/bin/google.sh"
 alias gcom="git checkout master"
 alias gcomp="git checkout master && git pull"
 alias gco="git checkout"
-alias gcbo="git checkout -b"
+alias gcob="git checkout -b"
 alias gco.="git checkout ."
 alias gst="git status"
 alias gbr="git branch"
-
+alias gdi="git diff"
+alias gsh="git show"
 
 # PATH
 export PATH="$HOME/bin:$PATH"
