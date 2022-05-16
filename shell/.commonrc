@@ -10,6 +10,7 @@ alias xpaste="xclip -out -selection clipboard"
 alias install="sudo apt update -y && sudo apt install"
 alias uninstall="sudo apt --purge remove"
 alias google="~/bin/google.sh"
+alias refresh-dot="git pull ~/.dotfiles && ~/.dotfiles/stow-all.sh && source ~/.bashrc"
 
 # Git
 alias gcom="git checkout master"
