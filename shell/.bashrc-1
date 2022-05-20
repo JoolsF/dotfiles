@@ -118,9 +118,8 @@ fi
 
 # MY CONFIG
 
-# Set prompt to show current directory only with no machine name
-export PS1="\e[1;37m[\W] \e[0m\$ "
-
+# https://bashrcgenerator.com/
+export PS1="[\[$(tput sgr0)\]\[\033[38;5;10m\]\w\[$(tput sgr0)\]]\n\A -> \[$(tput sgr0)\]"
 
 # Tab completion
 bind 'set show-all-if-ambiguous on'

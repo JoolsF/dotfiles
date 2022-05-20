@@ -200,4 +200,5 @@ exec --no-startup-id feh --bg-scale ~/Pictures/backgrounds/japan-2.jpg
 # key bindings
 bindsym $mod+shift+x exec i3lock
 
-# exec spotify
+# Natural mouse scrolling
+# exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111
