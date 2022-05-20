@@ -22,6 +22,8 @@ alias gbr="git branch"
 alias gdi="git diff"
 alias gsh="git show"
 
+alias git-save="git add . && git commit -m "update" && git push"
+
 # PATH
 export PATH="$HOME/bin:$PATH"
 
