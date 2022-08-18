@@ -5,8 +5,6 @@
 alias bat="batcat"
 alias xcopy="xclip -sel clip"
 alias xpaste="xclip -out -selection clipboard"
-# alias the standard rm program to trash-put to ensure we always put files in the trash
-alias rm="trash-put"
 
 # Shortcuts
 alias install="sudo apt update -y && sudo apt install"
