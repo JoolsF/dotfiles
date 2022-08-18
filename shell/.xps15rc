@@ -7,7 +7,7 @@ alias brighthigh="xrandr --output eDP-1 --brightness 0.8"
 alias laptopoff="xrandr --output eDP-1 --off"
 
 #Programs
-alias nosqlbooster="/opt/nosqlbooster4mongo-6.2.2.AppImage"
+alias nosqlbooster="/opt/nosqlbooster4mongo*.AppImage"
 alias robo="QT_FONT_DPI=128 /snap/bin/robo3t-snap"
 
 
