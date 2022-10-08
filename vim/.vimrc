@@ -1,4 +1,24 @@
-" Disable compatibility with vi which can cause unexpected issues.
+" TODO
+" Set folds for settings in this file
+" Install plugins 
+
+
+" ! PLUGINS
+" Uses vim-plug plugin manager.  See .vim/autoload/plug.vim
+" :PlugInstall to download and install plugins 
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'dense-analysis/ale'
+
+Plug 'preservim/nerdtree'
+
+
+call plug#end()
+
+
+" ! SETTINGS
+
 set nocompatible
 
 " highlight syntax
@@ -82,3 +102,4 @@ set wildmode=list:longest
 " There are certain files that we would never want to edit with Vim.
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
+
