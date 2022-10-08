@@ -22,6 +22,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 # Java (use coursier JVM)
 JAVA_HOME=/home/julianfenner/.cache/coursier/jvm/adopt@1.8.0-272
 
-#kubectx and kubens
+# kubernetes
 export PATH=~/.kubectx:$PATH
-

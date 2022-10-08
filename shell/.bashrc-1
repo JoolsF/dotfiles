@@ -134,3 +134,6 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
 # source /etc/profile.d/bash_completion.sh
+
+# Autojump needs to be sourced
+source /usr/share/autojump/autojump.sh
