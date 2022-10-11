@@ -8,6 +8,11 @@ Programs required for this setup not part of distro installation
 
 ## bash
 
+## vim
+* vim-plug
+
+## neovim
+* packer
 
 ## i3
 * blueman (bluetooth)
