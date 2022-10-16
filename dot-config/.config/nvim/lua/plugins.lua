@@ -9,4 +9,8 @@ return require('packer').startup(function(use)
   
   use({'scalameta/nvim-metals', requires = { "nvim-lua/plenary.nvim" }})
   use "nvim-lua/plenary.nvim"
+  use "hrsh7th/cmp-nvim-lsp" 
+  use "hrsh7th/cmp-vsnip"
+  use "hrsh7th/vim-vsnip"
+
 end)
