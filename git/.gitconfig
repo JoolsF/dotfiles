@@ -14,4 +14,4 @@
     di   = diff
     sh   = show
     brd  = branch -D
-    po   = push origin
+    pl   = pull
