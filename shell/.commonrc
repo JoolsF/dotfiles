@@ -8,6 +8,11 @@ alias xpaste="xclip -out -selection clipboard"
 alias tp="trash-put"
 alias g="git"
 
+# Git
+# Ensures that using g alias for git allows command auto-completion
+source /usr/share/bash-completion/completions/git
+__git_complete g __git_main
+
 # Shortcuts
 alias install="sudo apt update -y && sudo apt install"
 alias uninstall="sudo apt --purge remove"
