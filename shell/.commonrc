@@ -12,17 +12,6 @@ alias install="sudo apt update -y && sudo apt install"
 alias uninstall="sudo apt --purge remove"
 alias google="~/bin/google.sh"
 
-# Git
-alias gcom="git checkout master || git checkout main"
-alias gcomp="git checkout master && git pull || git checkout main && git pull"
-alias gco="git checkout"
-alias gcob="git checkout -b"
-alias gco.="git checkout ."
-alias gst="git status"
-alias gbr="git branch"
-alias gdi="git diff"
-alias gsh="git show"
-
 alias git-save="git add . && git commit -m "update" && git push"
 
 # PATH

@@ -62,7 +62,7 @@ end)
 vim.opt_global.completeopt = { "menuone", "noinsert", "noselect" }
 
 -- LSP mappings
-map("n", "gD", "<cmd>lua vim.lsp.buf.definition()<CR>")
+map("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>")
 map("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
 map("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>")
 map("n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>")

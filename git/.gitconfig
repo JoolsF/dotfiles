@@ -4,3 +4,12 @@
 [core]
        editor = vim
 
+[alias]
+	co   = checkout
+    comr = checkout master
+    comn = checout main
+    cob  = checkout -b
+    st   = status
+    br   = branch
+    di   = diff
+    sh   = show

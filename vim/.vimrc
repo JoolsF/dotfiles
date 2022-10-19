@@ -43,8 +43,8 @@ set smartcase
 " show search results as you type
 set incsearch  
 
-" Esc key mapped to jk  
-imap jk <ESC>  
+" Esc key mapped to ;; to exit insert mode  
+imap ;; <ESC>
 
 " Enable plugins and load plugin for the detected file type.
 filetype plugin on
