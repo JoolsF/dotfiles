@@ -6,6 +6,7 @@ alias bat="batcat"
 alias xcopy="xclip -sel clip"
 alias xpaste="xclip -out -selection clipboard"
 alias tp="trash-put"
+alias g="git"
 
 # Shortcuts
 alias install="sudo apt update -y && sudo apt install"
