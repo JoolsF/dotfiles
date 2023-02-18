@@ -1,0 +1,4 @@
+2022.10.18 23:13:21 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julianfenner/.dotfiles/dot-config/.config/nvim/.metals/lsp.trace.json or /home/julianfenner/.cache/metals/lsp.trace.json[0m
+2022.10.18 23:13:22 INFO  logging to file /tmp/.metals/metals.log[0m
+2022.10.18 23:14:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/julianfenner/.dotfiles/dot-config/.config/nvim/.metals/lsp.trace.json or /home/julianfenner/.cache/metals/lsp.trace.json[0m
+2022.10.18 23:14:55 INFO  logging to file /tmp/.metals/metals.log[0m
