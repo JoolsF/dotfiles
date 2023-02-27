@@ -15,3 +15,4 @@
     sh   = show
     brd  = branch -D
     pl   = pull
+    po   = push origin 

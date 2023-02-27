@@ -14,7 +14,7 @@ source /usr/share/bash-completion/completions/git
 __git_complete g __git_main
 
 # Shortcuts
-alias install="sudo apt update -y && sudo apt install"
+alias install="sudo apt update -y && sudo apt -y install"
 alias uninstall="sudo apt --purge remove"
 alias google="~/bin/google.sh"
 
