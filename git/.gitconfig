@@ -3,6 +3,7 @@
        name = Julian Fenner 
 [core]
        editor = vim
+	excludesFile = ~/.gitignore
 
 [alias]
     co   = checkout
