@@ -1,3 +1,5 @@
 .bsp/
 .idea/
 target/
+scripts/.scala-build/
+.scala-build/
