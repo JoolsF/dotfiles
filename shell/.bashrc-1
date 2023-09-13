@@ -153,4 +153,12 @@ export HISTFILE=~/.bash_eternal_history
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 # EOF history
 
-
+# FZF Config
+# Taken from /usr/share/doc/fzf/README.Debian
+# keybindings
+source /usr/share/doc/fzf/examples/key-bindings.bash
+# fuzzy auto completion (not working)
+# below is official recommendation
+# source /usr/share/doc/fzf/examples/completion.bash
+# this works instead however
+source /usr/share/bash-completion/completions/fzf
