@@ -13,6 +13,10 @@ Plug 'dense-analysis/ale'
 
 Plug 'preservim/nerdtree'
 
+" https://github.com/junegunn/fzf.vim#using-vim-plug
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 
 call plug#end()
 
@@ -103,3 +107,5 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" Map Ctrl+E to fzf's :History
+nmap <C-e> :History<CR>
