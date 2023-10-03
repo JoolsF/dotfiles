@@ -107,5 +107,13 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" **** FZF CONFIG START ****
+
 " Map Ctrl+E to fzf's :History
 nmap <C-e> :History<CR>
+" Ctrl+F to fzf's :GFiles which is similar to :Files but excludes .gitignore
+nmap <C-f> :GFiles!<CR>
+" CTRL+R to fzf's :Rg ripgrep command
+nmap <C-g> :Rg!<CR>
+
+" **** FZF CONFIG END ****

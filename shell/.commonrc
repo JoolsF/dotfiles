@@ -8,8 +8,8 @@ alias xpaste="xclip -out -selection clipboard"
 alias tp="trash-put"
 alias g="git"
 # https://nickjanetakis.com/blog/using-fzf-to-preview-text-files-on-the-command-line-and-within-vim
-alias pf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:preview-page-down"
-
+#alias pf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:preview-page-down"
+alias pf="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
 
 
 # Git
