@@ -17,10 +17,12 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 
-
 # JAVA
 # Java (use coursier JVM)
 JAVA_HOME=/home/julianfenner/.cache/coursier/jvm/adopt@1.8.0-272
 
 # kubernetes
 export PATH=~/.kubectx:$PATH
+
+# Misc
+source ~/bin/my-bash-functions.sh
