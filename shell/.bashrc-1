@@ -163,3 +163,8 @@ source /usr/share/doc/fzf/examples/key-bindings.bash
 # source /usr/share/doc/fzf/examples/completion.bash
 # this works instead however
 source /usr/share/bash-completion/completions/fzf
+
+# ASDF
+. "$HOME/.asdf/asdf.sh"
+. "$HOME/.asdf/completions/asdf.bash"
+
