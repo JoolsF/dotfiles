@@ -10,4 +10,3 @@ scripts/.scala-build/
 #Typescript
 node_modules
 .tool-versions
-
