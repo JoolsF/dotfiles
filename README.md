@@ -62,3 +62,6 @@ To get rid of massive cursor issues the following is required
 ~/.xinitrc
  xrdb ~/.Xresources
  exec i3
+
+## git folder
+The empty ~/.dotfiles/git/.stow-local-ignore file is needed to stow the .gitignore file
