@@ -164,3 +164,9 @@ source /usr/share/doc/fzf/examples/key-bindings.bash
 # this works instead however
 source /usr/share/bash-completion/completions/fzf
 
+# Required for NVM
+# https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+

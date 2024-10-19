@@ -107,6 +107,8 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+set textwidth=80
+
 " **** FZF CONFIG START ****
 
 " Map Ctrl+E to fzf's :History
