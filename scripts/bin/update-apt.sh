@@ -3,3 +3,4 @@ sudo apt upgrade       # Installs some updates; does not remove packages
 sudo apt autoremove    # Removes any old packages that are no longer needed
 sudo snap refresh
 cs update
+gh extension upgrade --all

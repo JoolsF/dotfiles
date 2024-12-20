@@ -1,4 +1,4 @@
-#Scala
+# Scala
 .bsp/
 .idea/
 target/
@@ -7,6 +7,10 @@ scripts/.scala-build/
 .metals
 .vscode/
 
-#Typescript
+# Typescript
 node_modules
 .tool-versions
+yarn-error.log
+.yarn
+.pnp.*
+package-lock.json # yarn uses yarn.lock
