@@ -1,3 +1,3 @@
 #!/bin/bash
 
-vi ~/Desktop/note-$(date +%H-%M-%S)
+vi ~/Desktop/note-$(date +%H-%M-%S).md
